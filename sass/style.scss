@@ -1,0 +1,35 @@
+@import "mediQuery";
+@import "nav";
+@import "showcase";
+@import "housecards";
+@import "infocontent";
+@import "contact-info";
+@import "xbox";
+@import "footer";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+    
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    ;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+
+}
+ul{
+    list-style: none;
+    
+}
+.container{
+    margin: 0 40px;
+    
+}
+
+

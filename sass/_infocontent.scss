@@ -1,0 +1,51 @@
+.content-info{
+    margin-left: 10px;
+    margin-right: 10px;
+    .about-cards{
+       display: grid;
+       grid-template-columns: repeat(4,1fr);
+       grid-gap: 20px;
+       font-size: 25px;
+       @include responsive(table){
+           grid-template-columns: repeat(2,1fr);
+       }
+       @include responsive(phone){
+           grid-template-columns: 1fr;
+       }
+    }
+    h2{
+        margin-top: 60px;
+        font-size: 20px;
+    }
+    hr{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .info{
+        font-size: 16px;
+        margin-bottom: 45px ;
+    }
+    img{
+        width: 100%;
+    }
+    p{
+        margin: 10px 0;
+        font-size: 16px;
+    }
+    small{
+        font-size: 16px;
+        color: rgb(153, 152, 152);
+    }
+    button{
+        width: 100%;
+        background-color: rgba(214, 214, 214, 0.74);
+        padding: 10px 0;
+        text-align: center;
+        border: none;
+        font-size: 20px;
+        &:hover{
+           background: rgb(179, 179, 179);
+           cursor: pointer;
+        }
+    }
+}
